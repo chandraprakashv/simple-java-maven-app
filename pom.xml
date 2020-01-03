@@ -32,6 +32,17 @@
           </archive>
         </configuration>
       </plugin>
+      <plugin>
+         <groupId>org.wildfly.plugins</groupId>
+         <artifactId>wildfly-maven-plugin</artifactId>
+         <version>1.0.2.Final</version>
+         <configuration>
+            <hostname>192.168.11.72</hostname>
+            <port>9990</port>
+            <username>admin</username>
+            <password>Jan@2020</password>
+         </configuration>
+       </plugin>
     </plugins>
   </build>
 </project>
